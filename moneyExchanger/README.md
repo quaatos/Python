@@ -1,17 +1,17 @@
-Use this to exchange money from:
+# Use this to exchange money from:
 
 ___________________
-Euro --> Dollar   | |
+Euro --> Dollar   
 ___________________
-Dollar --> Euro   | |
+Dollar --> Euro   
 ___________________
-Pound --> Euro    | |
+Pound --> Euro    
 ___________________
-Euro --> Pound    | |
+Euro --> Pound    
 ___________________
-Dollar --> Pound  | |
+Dollar --> Pound  
 ___________________
-Pound --> Dollar  | |
+Pound --> Dollar  
 ___________________
 
-execute py typing: python3 moneyExchanger.py
+## execute py typing: python3 moneyExchanger.py
