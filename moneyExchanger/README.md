@@ -15,3 +15,4 @@ Pound --> Dollar
 ___________________
 
 ## execute by typing: python3 moneyExchanger.py
+### I'll try to keep this up to date :)
