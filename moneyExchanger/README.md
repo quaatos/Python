@@ -14,4 +14,4 @@ ___________________
 Pound --> Dollar  
 ___________________
 
-## execute py typing: python3 moneyExchanger.py
+## execute by typing: python3 moneyExchanger.py
