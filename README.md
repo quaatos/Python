@@ -1,19 +1,5 @@
-# python_search
+money-exchanger
 
-This program is written in python, you can search with; Google, Youtube and Wikipedia.
+exchange dollar to euro and euro to dollar
 
-
-******************************************************
-
-> How To Use:
-
-
-open your terminal linux/windows in the correct directory.
-
-then type: python3 input.py
-
-if you haven't installed python yet.
-
-follow this instructions (for linux):
-
-sudo apt-get install python
+I'll edit the code when the worth of the euro and dollar will change.
