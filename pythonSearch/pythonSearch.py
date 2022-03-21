@@ -31,3 +31,6 @@ elif options == "DuckDuckGo":
     webbrowser.open("https://duckduckgo.com/?t=ffab&q={}".format(question))
 
 #developed by Quaatos with <3
+#last updated:
+#3/21/2022 
+#11:27
