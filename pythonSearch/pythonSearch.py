@@ -33,4 +33,4 @@ elif options == "DuckDuckGo":
 #developed by Quaatos with <3
 #last updated:
 #3/21/2022 
-#11:27
+#11:27 AM
