@@ -1,8 +1,10 @@
+from email.quoprimime import quote
 import discord
 import random
 import datetime
 import string
 
+#from setuptools import Command
 TOKEN = "YOUR TOKEN"
 
 dateTime = datetime.datetime.now()
@@ -11,7 +13,11 @@ Month = dateTime.strftime("%B")
 
 #open file and take a random sentence
 with open('facts.txt') as f:
-    lines = f.readlines()
+    fact = f.readlines()
+
+#open file and take random quote
+with open('quotes.txt', encoding='utf-8') as f:
+    quotes = f.readlines()
 
 client = discord.Client()
 
@@ -22,10 +28,10 @@ async def on_message(message):
 
     if '!help' == message.content.lower():
         await message.channel.send('\n `!help` --- Print available commands\n `!fact` --- Print a random fact\n `!ryt` --- random youtube link\n `!rph` --- random pornhub link')
-        await message.channel.send(' `!date` --- get the date of today\n `!source` --- my source code')
+        await message.channel.send(' `!date` --- get the date of today\n `!source` --- my source code\n`!quote` --- random quote')
 
     if '!fact' == message.content.lower():
-        await message.channel.send(random.choice(lines))
+        await message.channel.send(random.choice(fact))
 
     if '!ryt' == message.content.lower():
         ran = ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase + string.digits + "-_", k = 11))
@@ -37,6 +43,9 @@ async def on_message(message):
 
     if '!date' == message.content.lower():
         await message.channel.send("date: " + Month + ' ' + MonthDay)
+
+    if '!quote' == message.content.lower():
+        await message.channel.send(random.choice(quotes))
 
     if '!source' == message.content.lower():
         await message.channel.send("https://github.com/quaatos/Python/tree/main/slykaBot")
