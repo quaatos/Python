@@ -3,7 +3,6 @@ import random
 import datetime
 import string
 
-#from setuptools import Command
 TOKEN = "YOUR TOKEN"
 
 dateTime = datetime.datetime.now()
