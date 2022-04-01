@@ -2,7 +2,7 @@ import discord
 import random
 import datetime
 import string
-TOKEN = "OTU5NTQyNjg0Nzk4ODIwMzcz.YkdZww.R-gg2z3HoCyk2QPzR2sgBeZUgH4"
+TOKEN = "DISCORD TOKEN"
 
 dateTime = datetime.datetime.now()
 MonthDay = dateTime.strftime("%d")
