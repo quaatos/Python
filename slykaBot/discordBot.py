@@ -1,11 +1,9 @@
-from email.quoprimime import quote
 import discord
 import random
 import datetime
 import string
 
-#from setuptools import Command
-TOKEN = "YOUR TOKEN"
+TOKEN = "OTU5NTQyNjg0Nzk4ODIwMzcz.YkdZww.SSITfjPuUeieA19tccTVwT09Suk"
 
 dateTime = datetime.datetime.now()
 MonthDay = dateTime.strftime("%d")
