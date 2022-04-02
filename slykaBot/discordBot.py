@@ -3,11 +3,12 @@ import random
 import datetime
 import string
 
-TOKEN = "YOUR TOKEN"
+TOKEN = "Your token"
 
 dateTime = datetime.datetime.now()
 MonthDay = dateTime.strftime("%d")
 Month = dateTime.strftime("%B")
+Year = dateTime.strftime("%Y")
 
 #open file and take a random sentence
 with open('facts.txt') as f:
@@ -21,6 +22,9 @@ client = discord.Client()
 
 @client.event
 async def on_message(message):
+    #bot status
+    await client.change_presence(activity=discord.Game('!help'))
+
     if message.author.bot: #bot won't respond to their own message
         return
 
@@ -40,7 +44,7 @@ async def on_message(message):
         await message.channel.send("https://pornhub.com/view_video.php?viewkey=ph" + str(ran))
 
     if '!date' == message.content.lower():
-        await message.channel.send("date: " + Month + ' ' + MonthDay)
+        await message.channel.send("date: " + '**' + Month + ' ' + MonthDay + ', ' + Year + '**')
 
     if '!quote' == message.content.lower():
         await message.channel.send(random.choice(quotes))
