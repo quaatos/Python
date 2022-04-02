@@ -3,7 +3,7 @@ import random
 import datetime
 import string
 
-TOKEN = "OTU5NTQyNjg0Nzk4ODIwMzcz.YkdZww.SSITfjPuUeieA19tccTVwT09Suk"
+TOKEN = "YOUR TOKEN"
 
 dateTime = datetime.datetime.now()
 MonthDay = dateTime.strftime("%d")
