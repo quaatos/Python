@@ -1,3 +1,6 @@
+I no longer improve this project
+# newest released discordBot: https://github.com/quaatos/Python/tree/main/slykaBot
+
 This Discord bot is not very usefull.
 
 its just created for fun. 
