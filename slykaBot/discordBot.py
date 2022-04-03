@@ -3,7 +3,7 @@ import random
 import datetime
 import string
 
-TOKEN = "Your token"
+TOKEN = "OTU5NTQyNjg0Nzk4ODIwMzcz.YkdZww.a71iWdP3hle32bJT4HYfqRL_cxw"
 
 dateTime = datetime.datetime.now()
 MonthDay = dateTime.strftime("%d")
@@ -55,8 +55,8 @@ async def on_message(message):
 client.run(TOKEN)
 
 # ------ IDEAS ------- #
-# 
-#
+#                      #
+#                      #
 
 #developed with love by quaatos and skaffa
 #https://github.com/skaffa
